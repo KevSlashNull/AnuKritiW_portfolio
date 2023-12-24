@@ -637,6 +637,9 @@ main {
 
 .skills-list { padding: 20px; }
 
+.skills-list .skill-list-item data{
+  color: var(--light-gray);
+}
 
 .skills-item:not(:last-child) { margin-bottom: 15px; }
 
@@ -665,7 +668,6 @@ main {
   height: 100%;
   border-radius: inherit;
 }
-
 
 
 
