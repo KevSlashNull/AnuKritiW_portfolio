@@ -637,11 +637,10 @@ main {
 
 .skills-list { padding: 20px; }
 
-.skills-list .skill-list-item data{
-  color: var(--light-gray);
-}
 
 .skills-item:not(:last-child) { margin-bottom: 15px; }
+
+.skill { margin-bottom: 30px; }
 
 .skill .title-wrapper {
   display: flex;
@@ -668,6 +667,7 @@ main {
   height: 100%;
   border-radius: inherit;
 }
+
 
 
 
