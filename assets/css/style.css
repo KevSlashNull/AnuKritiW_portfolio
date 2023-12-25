@@ -922,7 +922,7 @@ main {
 /*-----------------------------------*\
   #CONTACT
 \*-----------------------------------*/
-
+/*
 .mapbox {
   position: relative;
   height: 250px;
@@ -1020,7 +1020,7 @@ textarea.form-input::-webkit-resizer { display: none; }
 
 .form-btn:disabled:hover { background: var(--border-gradient-onyx); }
 
-.form-btn:disabled:hover::before { background: var(--bg-gradient-jet); }
+.form-btn:disabled:hover::before { background: var(--bg-gradient-jet); } */
 
 
 
@@ -1235,7 +1235,7 @@ textarea.form-input::-webkit-resizer { display: none; }
    * #CONTACT
    */
 
-  .mapbox {
+  /* .mapbox {
     height: 380px;
     border-radius: 18px;
   }
@@ -1256,7 +1256,7 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .form-btn ion-icon { font-size: 18px; }
 
-}
+} */
 
 
 
