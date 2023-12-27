@@ -117,3 +117,33 @@ for (let i = 0; i < navigationLinks.length; i++) {
 
   });
 }
+
+document.querySelectorAll('.project-link').forEach(element => {
+  element.addEventListener('click', (event) => {
+    event.preventDefault();
+    openPortfolioModal(element.dataset.modalTarget)
+  })
+})
+
+function openPortfolioModal(selector) {
+  const content = document.querySelector(selector).innerHTML;
+  const modal = document.createElement('div');
+  modal.innerHTML = `
+  <div class="portfolio-modal">
+    <div class="portfolio-modal-content">
+      <button class="portfolio-modal-btn-close" onclick="closePortfolioModal()">
+        &times;
+      </button>
+      <div class="portfolio-modal-body">
+        ${content}
+      </div>
+    </div>
+  </div>
+  `;
+  document.body.appendChild(modal);
+}
+
+function closePortfolioModal() {
+  const modal = document.querySelector('.portfolio-modal');
+  modal.remove();
+}

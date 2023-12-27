@@ -9,6 +9,51 @@
 
 
 
+ .project-link {
+  cursor: pointer;
+}
+
+.portfolio-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.75);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+.modal-content {
+  display: none;
+}
+
+.portfolio-modal h2 {
+  margin-bottom: 1rem;
+}
+
+.portfolio-modal-content {
+  background: var(--eerie-black-2);
+  border: 1px solid var(--jet);
+  border-radius: 20px;
+  padding: 30px;
+  color: var(--white-2);
+  max-width: 800px;
+  margin: 0 0.5rem;
+  position: relative;
+}
+
+.portfolio-modal-btn-close {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  padding: 0.5rem;
+  color: var(--white-2);
+  font-size: 20px;
+}
+
 
 
 /*-----------------------------------*\
